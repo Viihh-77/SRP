@@ -1,6 +1,6 @@
 package SRP_Aplicado;
 
-public class calculaFreteImposto {
+public class CalculaFreteImposto {
 
     public double calcularFrete(Pedido pedido) {
         if (pedido.getValorTotal() < 500.00) {

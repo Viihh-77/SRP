@@ -22,6 +22,13 @@ public class Pedido {
         this.emailCliente = emailCliente;
     }
 
+    public Pedido(String id, double valorTotal, int quantidadeItens, String emailCliente) {
+        this.id = id;
+        this.valorTotal = valorTotal;
+        this.quantidadeItens = quantidadeItens;
+        this.emailCliente = emailCliente;
+    }
+
     public String getId() {
         return id;
     }
